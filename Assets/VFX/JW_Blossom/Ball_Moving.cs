@@ -6,9 +6,9 @@ public class Ball_Moving : MonoBehaviour
 {
     Vector3 pos; //현재위치
 
-    float delta = 100.0f; // 좌(우)로 이동가능한 (x)최대값
+    public float delta = 50.0f; // 좌(우)로 이동가능한 (x)최대값
 
-    float speed = 0.3f; // 이동속도
+    public float speed = 0.35f; // 이동속도
 
 
 

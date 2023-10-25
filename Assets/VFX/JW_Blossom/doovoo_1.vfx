@@ -595,7 +595,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
   dataType: 0
-  capacity: 1000000
+  capacity: 500000
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -1194,7 +1194,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":10912,"guid":"0000000000000000f000000000000000","type":0}}'
+      m_SerializableObject: '{"obj":{"fileID":10300,"guid":"0000000000000000f000000000000000","type":0}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -1342,7 +1342,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.36780452728271487,"g":0.0,"b":1.0,"a":1.0},"time":0.2058899849653244},{"color":{"r":1.4799219369888306,"g":0.17821049690246583,"b":0.8307855725288391,"a":1.0},"time":0.529411792755127},{"color":{"r":3.499999761581421,"g":0.5130889415740967,"b":0.7487642765045166,"a":1.0},"time":0.7705958485603333},{"color":{"r":4.080805778503418,"g":2.6573691368103029,"b":0.47737711668014529,"a":1.0},"time":0.929411768913269},{"color":{"r":12.0,"g":10.0,"b":2.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.2382391095161438}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.36780452728271487,"g":0.0,"b":1.0,"a":1.0},"time":0.2058899849653244},{"color":{"r":1.4799219369888306,"g":0.17821049690246583,"b":0.8307855725288391,"a":1.0},"time":0.529411792755127},{"color":{"r":3.499999761581421,"g":0.5130889415740967,"b":0.7487642765045166,"a":1.0},"time":0.9382314682006836},{"color":{"r":2.724097967147827,"g":1.7286274433135987,"b":0.19017277657985688,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.1882352977991104}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -5698,7 +5698,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661614793}
     - outputSlot: {fileID: 8926484042661614753}
       inputSlot: {fileID: 8926484042661614734}
-    position: {x: 373.6, y: 1016.8}
+    position: {x: 268.80002, y: 1023.99994}
     expandedSlots:
     - {fileID: 8926484042661614752}
     expanded: 1
