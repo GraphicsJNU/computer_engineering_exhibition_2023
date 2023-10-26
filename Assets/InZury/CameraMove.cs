@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
+    private float cameraSpeed = 1.0f;
     void Start()
     {
         
@@ -16,7 +17,7 @@ public class CameraMove : MonoBehaviour
 
     private void MovePumping()
     {
-        Vector3 cameraPos = new(transform.position.x, transform.position.y, -2.0f + 0.5f * Mathf.Cos(0.5f * Time.time));
+        Vector3 cameraPos = new(transform.position.x, transform.position.y, -1.5f + cameraSpeed * Mathf.Cos(0.5f * Time.time));
         transform.position = cameraPos;
     }
 }
