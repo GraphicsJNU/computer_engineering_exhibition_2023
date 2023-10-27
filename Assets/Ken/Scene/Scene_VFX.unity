@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4.6148124, g: 3.2312531, b: 3.1785855, a: 1}
+  m_IndirectSpecularColor: {r: 4.6102777, g: 3.2291303, b: 3.1785588, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,7 +178,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1889980440}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &630413337
+--- !u!114 &630413339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,11 +187,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 630413333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d01632633242efd42af989758fc39517, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6ff7033f4fbc843a3e8d23ce8e51f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationAmount: 45
-  frequency: 0.5
+  positionAmount:
+    x: 1
+    y: 1
+    z: 3
+  rotationAmount:
+    x: 20
+    y: 5
+    z: 80
+  frequency: 0.06
   octaves: 2
 --- !u!1001 &635888971
 PrefabInstance:
@@ -415,7 +422,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0.19
+      - m_Value: 0.05
         m_Name: rotate intent
         m_Overridden: 1
     m_Vector2f:
@@ -809,7 +816,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2093891221272343767, guid: 0fb3de1449bb946428c986555eaaaeb2,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 630413337}
+      addedObject: {fileID: 630413339}
   m_SourcePrefab: {fileID: 100100000, guid: 0fb3de1449bb946428c986555eaaaeb2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
