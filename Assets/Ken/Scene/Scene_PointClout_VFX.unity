@@ -190,16 +190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1473b16515c5242448a69b828877001f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionAmount:
-    x: 0.2
-    y: 0.1
-    z: 0.3
-  rotationAmount:
-    x: 20
-    y: 60
-    z: 5
-  frequency: 0.03
-  octaves: 2
 --- !u!114 &630413337
 MonoBehaviour:
   m_ObjectHideFlags: 0
