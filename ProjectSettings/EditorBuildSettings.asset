@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
-  - enabled: 1
     path: Assets/InZury/InZuryScenes.unity
     guid: 6d260909bb8d76441806a4c5535157e8
+  - enabled: 1
+    path: Assets/VFX/JW_Blossom/blossom_scene.unity
+    guid: 97b05a55f0a42e74898fc8ae2bc5ba60
+  - enabled: 1
+    path: Assets/Ken/Scene/Scene_PointClout_VFX.unity
+    guid: c1e7af4c37d8fa8419d20f95903a3a4f
+  - enabled: 1
+    path: Assets/Ken/Scene/Scene_VFX.unity
+    guid: 85b8f54bb9f1cda4abf9f9fc28ffaadd
+  - enabled: 1
+    path: Assets/VFX/JW_CamCamCam/CamCam_scene.unity
+    guid: eef5f15eaa77c6f4ca3f0c3a016930c2
   m_configObjects: {}
