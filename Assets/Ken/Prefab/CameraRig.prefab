@@ -180,7 +180,7 @@ MonoBehaviour:
   materialMipBias: 0
   m_RenderingPathCustomFrameSettings:
     bitDatas:
-      data1: 69284255760157
+      data1: 70005810265949
       data2: 4539628424389459968
     lodBias: 1
     lodBiasMode: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
-  m_Version: 5
+  m_Version: 9
   m_ObsoleteRenderingPath: 0
   m_ObsoleteFrameSettings:
     overrides: 0
@@ -287,16 +287,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2093891221272343767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 543ddbe12367a4899b011d43ef41f357, type: 3}
+  m_Script: {fileID: 11500000, guid: d01632633242efd42af989758fc39517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionAmount:
-    x: 0.03
-    y: 0.03
-    z: 0.03
-  rotationAmount:
-    x: 30
-    y: 80
-    z: 20
-  frequency: 0.04
+  rotationAmount: 10
+  frequency: 1
   octaves: 2
